@@ -5,9 +5,12 @@ ruby '2.7.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.0'
-# Use sqlite3 as the database for Active Record
+# Upload files to app
 gem 'carrierwave'
+# Create picture thumbnails by default
 gem 'mini_magick'
+# Authentication app
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets
