@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  venue: MyString
+  price: 1.5
+  category: MyString
+  stock: 1
+  date: 2021-01-02
+  time: 2021-01-02 17:51:17
+
+two:
+  name: MyString
+  venue: MyString
+  price: 1.5
+  category: MyString
+  stock: 1
+  date: 2021-01-02
+  time: 2021-01-02 17:51:17
