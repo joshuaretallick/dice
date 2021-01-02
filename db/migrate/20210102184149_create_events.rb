@@ -9,8 +9,6 @@ class CreateEvents < ActiveRecord::Migration[6.1]
       t.string :category
       t.integer :stock
       t.string :picture
-
-      t.timestamps
     end
   end
 end
