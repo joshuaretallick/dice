@@ -37,7 +37,7 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= @event.picture %>
+  <%= image_tag(@event.picture_url, width: 600) if @event.picture.present? %>
 </p>
 
 <%= link_to 'Edit', edit_event_path(@event) %> |
