@@ -12,45 +12,45 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+    <%= form.label :name %><br />
+    <%= form.text_field :name, autofocus: true, autocomplete: "name" %>
   </div>
 
   <div class="field">
-    <%= form.label :date %>
+    <%= form.label :price %><br />
+    <%= form.text_field :price, autofocus: true, autocomplete: "price" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :venue %><br />
+    <%= form.text_field :venue, autofocus: true, autocomplete: "venue" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :category %><br />
+    <%= form.text_field :category, autofocus: true, autocomplete: "category" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :stock %><br />
+    <%= form.number_field :stock, autofocus: true, autocomplete: "stock" %>
+  </div>
+
+  <div class="field">
+    <%= form.label :date %><br />
     <%= form.date_select :date %>
   </div>
 
   <div class="field">
-    <%= form.label :time %>
+    <%= form.label :time %><br />
     <%= form.time_select :time %>
   </div>
 
   <div class="field">
-    <%= form.label :price %>
-    <%= form.text_field :price %>
-  </div>
-
-  <div class="field">
-    <%= form.label :venue %>
-    <%= form.text_field :venue %>
-  </div>
-
-  <div class="field">
-    <%= form.label :category %>
-    <%= form.text_field :category %>
-  </div>
-
-  <div class="field">
-    <%= form.label :stock %>
-    <%= form.number_field :stock %>
-  </div>
-
-  <div class="field">
-    <%= form.label :picture %>
+    <%= form.label :picture %><br />
     <%= form.file_field :picture %>
   </div>
-
+  <br />
   <div class="actions">
     <%= form.submit %>
   </div>
